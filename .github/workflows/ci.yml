@@ -10,5 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
+      - name: Checkout Code
+        uses: actions/checkout@v4 
+
+      - name: Set permissions
+        run: chmod +x hello.py
+
       - name: python Hello
         run: ./hello.py
