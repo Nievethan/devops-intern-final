@@ -1,0 +1,14 @@
+name: Hello DevOps
+
+on:
+  push:
+    branches:
+    - '**'
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: python Hello
+        run: ./hello.py

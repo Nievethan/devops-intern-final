@@ -19,5 +19,8 @@ To prove my understanding of the Linux terminal and basic scripting, I have crea
 
 By using the command `chmod u+x sysinfo.sh`, I was able to change the user permissions on the file and make it executable. 
 
-## Docker Basics
+## 3. Docker Basics
 I wrote a `Dockerfile` to containerize `hello.py`. I built the container using the command `docker build -t hello` thus making it possible to run it with the command `docker run hello`.
+
+## 4. CI/CD with Github Actions
+I created `ci.yml` which is located at `.github/workflows/ci.yml`
