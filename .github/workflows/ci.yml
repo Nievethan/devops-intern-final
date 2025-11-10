@@ -16,5 +16,5 @@ jobs:
       - name: Set permissions
         run: chmod +x hello.py
 
-      - name: python Hello
-        run: ./hello.py
+      - name: Run hello.py
+        run: python hello.py
