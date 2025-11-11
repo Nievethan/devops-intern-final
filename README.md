@@ -1,4 +1,4 @@
-# DevOps Intern Final Assesment
+# DevOps Intern Final Assessment
 Nievethan Thanienayagam
 November 10, 2025
 
